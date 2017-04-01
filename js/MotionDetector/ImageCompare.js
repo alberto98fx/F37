@@ -81,6 +81,7 @@
 					var pixel2Data = pixel2.data;
 
 					if(comparePixel(pixel1Data, pixel2Data) == false) {
+						console.log("Moved");
 						setTopLeft(x,y);
 						setBottomRight(x,y);
 					}					
